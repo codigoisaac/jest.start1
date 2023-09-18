@@ -1,4 +1,4 @@
-const add = require("./calc");
+import { add } from "./calc";
 
 describe("Calculator", () => {
   test("add two numbers", () => {
